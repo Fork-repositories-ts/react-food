@@ -3,7 +3,7 @@ import { RocketIcon, StarFilledIcon } from "@radix-ui/react-icons";
 const SubtitleCard = ({ subTitle, rateScore, rates, closeTime }) => {
   return (
     <>
-      <h2 className="text-4xl font-bold mt-[15px]">{subTitle}</h2>
+      <h2 className="text-4xl font-bold mt-[25px]">{subTitle}</h2>
       <div className="flex mt-[20px] items-center">
         <RocketIcon width={"30"} height={"30"} className="mr-[10px]" />
         <div className="flex flex-col">
